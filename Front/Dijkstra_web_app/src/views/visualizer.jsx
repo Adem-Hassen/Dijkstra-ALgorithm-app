@@ -525,7 +525,7 @@ setLinks(updatedLinks);
 }} aria-label="Default select example" >
     <option >End Node</option>
 {node_names.map((node)=><option value={node}>{node}</option>)}
-</Form.Select> <Button variant="outline-primary" style={{width:150,marginTop:25}} id="button-addon2" onClick={Visualize}>
+</Form.Select> <Button variant="outline-secondary" style={{width:150,marginTop:25}} id="button-addon2" onClick={Visualize}>
       Start
       
     </Button>  </>):null}
