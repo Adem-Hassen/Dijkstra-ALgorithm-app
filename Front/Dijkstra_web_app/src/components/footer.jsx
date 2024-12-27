@@ -11,7 +11,6 @@ function Footer() {
           <h4 style={styles.subTitle}>Follow me</h4>
           <div style={styles.socialIcons}>
             <a href="https://github.com/Adem-Hassen" style={styles.icon}><i className="fab fa-github"></i></a>
-            <a href="https://facebook.com" style={styles.icon}><i className="fab fa-facebook"></i></a>
             <a href="https://Linkedin.com" style={styles.icon}><i className="fab fa-linkedin"></i></a>
            
           </div>
