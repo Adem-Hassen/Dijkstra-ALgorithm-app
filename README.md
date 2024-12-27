@@ -37,32 +37,32 @@ This web application provides an interactive platform for creating and visualizi
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/graph-visualization-app.git
-   cd graph-visualization-app
+   git clone https://github.com/Adem-Hassen/Dijkstra-ALgorithm-app.git
+   cd Dijkstra-ALgorithm-application
    ```
 
 2. Install dependencies for the front-end:
    ```bash
-   cd frontend
+   cd front
    npm install
    ```
 
 3. Set up the back-end environment:
    ```bash
-   cd backend
+   cd back
    pip install -r requirements.txt
    ```
 
 ### Running the App
 1. Start the FastAPI back-end server:
    ```bash
-   cd backend
+   cd back
    uvicorn main:app --reload
    ```
 
 2. Start the React front-end:
    ```bash
-   cd frontend
+   cd front 
    npm start
    ```
 
