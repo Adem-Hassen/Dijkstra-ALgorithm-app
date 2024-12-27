@@ -1,0 +1,11 @@
+
+.table-container .table tbody tr.start-node {
+    background-color: #d4edda !important; /* Light green */
+    font-weight: bold;
+  }
+  
+  .table-container .table tbody tr.end-node {
+    background-color: #f8d7da !important; /* Light red */
+    font-weight: bold;
+  }
+  
