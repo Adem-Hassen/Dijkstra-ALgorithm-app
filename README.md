@@ -76,12 +76,14 @@ This web application provides an interactive platform for creating and visualizi
 ## Project Structure
 ```
 project-root
-├── frontend/   # React front-end
+├── front/   # React front-end
 │   ├── src/    # Source files
 │   └── public/ # Static assets
-├── backend/    # FastAPI back-end
+├── back/    # FastAPI back-end
 │   ├── main.py # API endpoints and logic
 │   └── models/ # Data models and utilities
+│   └── controller/ # API endpoint and  requests handler
+│   └── services/ # contain all the logic and services
 └── README.md   # Project documentation
 ```
 
